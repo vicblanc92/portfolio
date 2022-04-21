@@ -1,0 +1,71 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    @media (min-width: 768px) {
+      align-items: flex-start;
+      flex-direction: row;
+      margin: 30px;
+    }
+    &__titleAndInfo {
+      margin-top: 20px;
+      margin-right: 60px;
+      margin-left: 60px;
+      @media (min-width: 768px) {
+        margin-right: 200px;
+        margin-left: 10px;
+      }
+    }
+  
+    &__img {
+      width: 250px;
+      height: 180px;
+      border-radius: 12px;
+      margin-top: 20px;
+      margin-right: 20px;
+      border: 2px solid $purple;
+  
+      @media (min-width: 768px) {
+        width: 400px;
+        height: 300px;
+        margin-left: 200px;
+      }
+    }
+    &__title {
+      font-family: $text;
+      font-size: 18px;
+      text-decoration: none;
+      margin-bottom: 15px;
+      color: $purple;
+  
+      @media (min-width: 768px) {
+      }
+    }
+    &__info {
+      text-align: justify;
+      font-size: 12px;
+      margin-bottom: 25px;
+      @media (min-width: 768px) {
+        font-size: 18px;
+      }
+    }
+  }
+  
+  .projects {
+    font-family: $text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $blue;
+    color: $textColor;
+  
+    &__title {
+      font-size: 25px;
+      letter-spacing: 1px;
+      text-align: center;
+      font-family: $titlefont;
+      line-height: 80px;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $text;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient($purple, $blue);
+    color: $textColor;
+    &__image {
+      width: 200px;
+      @media (min-width: 768px) {
+        width: 400px;
+      }
+    }
+    &__text {
+      font-size: 15px;
+      margin: 30px;
+      @media (min-width: 768px) {
+        font-size: 25px;
+      }
+    }
+    &__follow {
+      font-size: 15px;
+      margin: 30px;
+      @media (min-width: 768px) {
+        font-size: 18px;
+      }
+    }
+    &__arrow {
+      font-size: 30px;
+      transition: color ease 2s;
+      &:hover {
+        color: $lighBlue;
+      }
+    }
+  }
+  

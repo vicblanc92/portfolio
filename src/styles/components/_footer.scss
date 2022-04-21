@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $textColor;
+    background-image: linear-gradient($blue, $purple);
+    border: 1px solid $purple;
+  
+    &__title {
+      line-height: 50px;
+      font-size: 25px;
+      letter-spacing: 2px;
+      text-align: center;
+      font-family: $titlefont;
+      list-style-type: none;
+  
+      @media (min-width: 768px) {
+        font-size: 25px;
+      }
+    }
+    &__items {
+      display: flex;
+      justify-content: center;
+    }
+    &__item {
+      margin: 12px;
+      list-style-type: none;
+      font-size: 20px;
+      color: $textColor;
+  
+      @media (min-width: 768px) {
+        font-size: 30px;
+        margin: 20px;
+      }
+    }
+  }
+  
