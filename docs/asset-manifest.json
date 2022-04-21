@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2a7b2717.css",
+    "main.js": "./static/js/main.b254e27f.js",
+    "static/media/anonymous.png": "./static/media/anonymous.fdadb10c5561207ac7de.png",
+    "static/media/HarryPotterPC.png": "./static/media/HarryPotterPC.1468d56677070c066dd6.png",
+    "static/media/JS.png": "./static/media/JS.13ef303eaa0e2eb2b6a7.png",
+    "static/media/superprogrammers.png": "./static/media/superprogrammers.106ca02851c7c08f873e.png",
+    "static/media/myphoto.jpg": "./static/media/myphoto.1af9b5df96348bab6e93.jpg",
+    "static/media/usersTable.jpg": "./static/media/usersTable.a3a5fde0906b806d13b4.jpg",
+    "static/media/awesomeprofilecards.png": "./static/media/awesomeprofilecards.523494e9a0064954e036.png",
+    "static/media/woman.png": "./static/media/woman.156d0517f8e6b5d6a219.png",
+    "static/media/awesomeprofilecardsh.png": "./static/media/awesomeprofilecardsh.459c14135037f5565df3.png",
+    "index.html": "./index.html",
+    "main.2a7b2717.css.map": "./static/css/main.2a7b2717.css.map",
+    "main.b254e27f.js.map": "./static/js/main.b254e27f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7b2717.css",
+    "static/js/main.b254e27f.js"
+  ]
+}
