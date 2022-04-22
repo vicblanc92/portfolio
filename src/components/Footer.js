@@ -2,12 +2,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
     <>
       <section className="footer">
         <nav className="footer__nav">
+          <a href="#aboutMe">
+            <FontAwesomeIcon
+              className="header__arrow"
+              icon={faArrowAltCircleUp}
+            />
+          </a>
           <ul className="footer__ul">
             <div className="footer__title">
               <li>
