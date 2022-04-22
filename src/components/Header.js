@@ -8,8 +8,8 @@ const Header = () => {
       <header className="header">
         <img className="header__image" src={woman} alt="mujer ordenador" />
         <h2 className="header__text">
-          Bienvenido/a a mi porfolio, mi nombre es Victoria Blanc Rastoll y soy
-          Frontend Junior Developer
+          Bienvenido/a a mi porfolio, mi nombre es <u>Victoria Blanc Rastoll</u>{' '}
+          y soy <u>Frontend Junior Developer</u>
         </h2>
         <h3 className="header__follow">
           ¿Quieres saber más sobre mi? ¡Acompáñame!
