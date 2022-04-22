@@ -1,9 +1,9 @@
-import ReactProject from '../images/HarryPotterPC.png';
-import JSProject from '../images/JS.png';
-import HTMLandCSSProject from '../images/anonymous.png';
-import SuperProgrammersProject from '../images/superprogrammers.png';
-import AwesomeProfileCardsProject from '../images/awesomeprofilecards.png';
-import AwesomeProfileCards2 from '../images/awesomeprofilecardsh.png';
+import ReactProject from '../images/HarryPotterPC.jpg';
+import JSProject from '../images/JS.jpg';
+import HTMLandCSSProject from '../images/anonymous.jpg';
+import SuperProgrammersProject from '../images/superprogrammers.jpg';
+import AwesomeProfileCardsProject from '../images/awesomeprofilecards.jpg';
+import AwesomeProfileCards2 from '../images/awesomeprofilecardsh.jpg';
 import usersTable from '../images/usersTable.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
