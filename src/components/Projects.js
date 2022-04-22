@@ -66,7 +66,7 @@ const Projects = () => {
               series de anime podrán hacer búsquedas e incluir sus series
               favoritas solo pulsando un botón. Además, cuando se recarga la
               página, estas series seguirán apareciendo como favoritas en este
-              apartado.El usuario o usuaria podrá borrar sus series favoritas
+              apartado. El usuario o usuaria podrá borrar sus series favoritas
               una por una o todas de una vez.
             </p>
           </div>
