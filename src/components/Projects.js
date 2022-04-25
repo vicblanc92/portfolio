@@ -1,9 +1,10 @@
-import ReactProject from '../images/HarryPotterPC.jpg';
+import reactProject from '../images/HarryPotterPC.jpg';
 import JSProject from '../images/JS.jpg';
 import HTMLandCSSProject from '../images/anonymous.jpg';
-import SuperProgrammersProject from '../images/superprogrammers.jpg';
-import AwesomeProfileCardsProject from '../images/awesomeprofilecards.jpg';
-import AwesomeProfileCards2 from '../images/awesomeprofilecardsh.jpg';
+import superProgrammersProject from '../images/superprogrammers.jpg';
+import awesomeProfileCardsProject from '../images/awesomeprofilecards.jpg';
+import reactHooks from '../images/react-hooks.png';
+import awesomeProfileCards2 from '../images/awesomeprofilecardsh.jpg';
 import usersTable from '../images/usersTable.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
@@ -76,7 +77,7 @@ const Projects = () => {
             <img
               loading="lazy"
               className="project__img"
-              src={ReactProject}
+              src={reactProject}
               alt="Harry Potter React"
             ></img>
           </div>
@@ -129,6 +130,37 @@ const Projects = () => {
             </p>
           </div>
         </article>
+        <article className="project">
+          <div>
+            <img
+              loading="lazy"
+              className="project__img"
+              src={reactHooks}
+              alt="imagen de Anonymous Proxy web"
+            ></img>
+          </div>
+          <div className="project__titleAndInfo">
+            <a
+              className="project__title"
+              href="https://vicblanc92.github.io/react-hooks/"
+            >
+              <h3 className="project__title">
+                Listado de usuarios. React Hooks
+                <FontAwesomeIcon icon={faLink} />
+              </h3>
+            </a>
+            <p className="project__info">
+              Esta aplicación consta de un listado de usuarios/as, cuyos datos e
+              imágenes vienen de una API. Al cargar la página encontraremos un
+              mensaje que anuncia que no hemos seleccionado ningún usuario/a. Al
+              pinchar sobre alguno/a de ellos/as, podremos ver la información
+              que ya tenemos en la tabla en grande, con el email del usuario/a
+              seleccionado/a. El objetivo de esta página ha sido la práctica del
+              uso de Hooks de React. Se ha utilizado useEffect, useReducer (como
+              alternativa de useState) y useContext.
+            </p>
+          </div>
+        </article>
       </section>
 
       <section className="projects">
@@ -138,7 +170,7 @@ const Projects = () => {
             <img
               loading="lazy"
               className="project__img"
-              src={SuperProgrammersProject}
+              src={superProgrammersProject}
               alt="imagen del proyecto de lasSuper Programmers"
             ></img>
           </div>
@@ -165,7 +197,7 @@ const Projects = () => {
             <img
               loading="lazy"
               className="project__img"
-              src={AwesomeProfileCardsProject}
+              src={awesomeProfileCardsProject}
               alt="imagen del proyecto Awesome Profile Cards"
             ></img>
           </div>
@@ -193,7 +225,7 @@ const Projects = () => {
             <img
               loading="lazy"
               className="project__img"
-              src={AwesomeProfileCards2}
+              src={awesomeProfileCards2}
               alt="imagen del proyecto Awesome Profile Cards"
             ></img>
           </div>
